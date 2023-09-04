@@ -1,0 +1,65 @@
+.body--pop{
+  overflow-y: hidden;
+}
+
+.btn__open{
+  position: absolute;
+  top: 10vh;
+  left: 10vw;
+  padding: 10px 20px;
+  background-color: rgb(108, 108, 204);
+  color: aliceblue;
+  font-size: 30px;
+}
+
+.pop__up{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(12, 12, 12, 0.39);
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.pop__up--show{
+  visibility: visible;
+  opacity: 1;
+}
+
+.pop__up-body{
+  position: fixed;
+  left: 40%;
+  top: 25%;
+  z-index: 2;
+}
+
+.pop__up-close{
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background:transparent;
+  font-size: 20px;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+input{
+  font-size: 25px;
+  border: 1px solid;
+  border-radius: 5px;
+  margin-bottom: 25px;
+}
+
+.btn__submit{
+  padding: 10px 20px;
+  background-color: rgb(108, 108, 204);
+  color: aliceblue;
+  font-size: 30px;
+  border-radius: 5px;
+}
